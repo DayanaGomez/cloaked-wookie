@@ -1,0 +1,751 @@
+/* Gallery One */
+
+.galleryOne {
+    width:60%;
+    margin-left:20%;
+    margin-right:20%;
+    position:relative;
+    height:100%;
+}
+
+#one {
+    width:100%;
+    height:1px;
+    margin-bottom:10%;  
+}
+
+/* Column One */
+
+.columnOne {
+    width:32%;
+    float:left;
+    position:relative;
+}
+
+.columnOne ul {
+    list-style:none;
+    padding:0px;
+    float:left; 
+}
+
+.thumbOne {
+    float: left;
+    margin-right: 3%;
+    margin-top: 17%;
+    position: relative;
+    width: 57%;
+}
+
+.thumbTwo {
+    position: relative;
+    width:39%;
+}
+
+.thumbThree {
+    float: left;
+    margin-left: 9%;
+    margin-right: 3%;
+    position: relative;
+    width: 27%;
+}
+
+.thumbFour {
+    position: relative;
+    width: 60%;
+}
+
+.thumbFive {
+    margin-left: 19%;
+    position: relative;
+    width: 80%;
+}
+
+/* Column Two */
+
+.columnTwo {
+    position:relative;
+    width:32%;
+    float:left;
+    margin-left:.5%;    
+}
+
+.columnTwo ul {
+    list-style:none;
+    padding:;
+    
+    float:left;
+}
+
+.thumbSix {
+    position:relative;
+    width:47%;
+    margin-right:3%;
+    float:left;
+    margin-top:16%;
+}
+
+.thumbSeven {
+    position: relative;
+    width:49%;
+}
+
+.thumbEight {
+    position: relative;
+    width:100%;
+}
+
+.thumbNine {
+    margin-right:3%;
+    position: relative;
+    width:47%;
+    float:left;
+}
+
+.thumbTen {
+    position: relative;
+    width:49%;
+}
+
+
+/* Column Three */
+
+.columnThree {
+    position:relative;
+    width:32%;
+    float:left;
+    margin-left:.5%;
+}
+
+.columnThree ul {
+    list-style:none;
+    padding:0px;
+    float:left;
+    
+}
+
+.thumbEleven {
+    float: left;
+    margin-right: 3%;
+    position: relative;
+    width: 41%;
+}
+
+.thumbTwelve {
+    margin-top: 17%;
+    position: relative;
+    width: 51%;
+}
+
+.thumbThirteen {
+    position: relative;
+    width:80%;
+}
+
+.thumbFourteen {
+    margin-right:3%;
+    position: relative;
+    width:47%;
+    float:left;
+}
+
+.thumbFifteen {
+    margin-bottom:10%;
+    position: relative;
+    width:49%;
+}
+
+/* Gallery Two */
+
+.galleryTwo {
+    width:60%;
+    margin-left:20%;
+    margin-right:20%;
+    position:relative;
+    height:100%;
+}
+
+#two {
+    width:100%;
+    height:1px;
+    margin-bottom:10%;  
+}
+
+/* Column One */
+
+.thumbSixteen {
+    float: left;
+    margin-right: 3%;
+    margin-top: 41%;
+    position: relative;
+    width: 52%;
+}
+
+.thumbSeventeen {
+    margin-top: 10%;
+    position: relative;
+    width: 44%;
+}
+
+.thumbEightteen {
+    margin-left: 19%;
+    position: relative;
+    width: 80%;
+}
+
+.thumbNineteen {
+    margin-left: 29%;
+    position: relative;
+    width: 70%;
+}
+
+/* Column Two */
+
+.thumbTwenty {
+    position: relative;
+    width: 47%;
+    margin-right:3%;
+    float:left;
+    margin-top: 9%;
+}
+
+.thumbTwentyone {
+    position:relative;
+    width:49%;
+    margin-top:6%;
+}
+
+.thumbTwentytwo {
+    position: relative;
+    width:100%;
+}
+
+.thumbTwentythree {
+    position: relative;
+    width:47%;
+    margin-right:3%;
+    float:left;
+}
+
+.thumbTwentyfour {
+    position: relative;
+    width:49%;
+    float:left;
+}
+
+/* Column Three */
+
+.thumbTwentyfive {
+    position: relative;
+    width:60%;
+    margin-top: 18%;
+}
+
+.thumbTwentysix {
+    float: left;
+    margin-right: 3%;
+    position: relative;
+    width: 41%;
+}
+
+.thumbTwentyseven {
+    position: relative;
+    width: 49%;
+}
+
+.thumbTwentyeight {
+    position: relative;
+    width:70%;
+}
+
+/* Gallery Three */
+
+.galleryThree {
+    width:60%;
+    margin-left:20%;
+    margin-right:20%;
+    position:relative;
+    height:100%;
+}
+#three {
+    width:100%;
+    height:1px;
+    margin-bottom:10%;  
+}
+
+/* Column One */
+
+.thumbTwentynine {
+    float: left;
+    margin-left: 10%;
+    margin-right: 3%;
+    margin-top: 39%;
+    position: relative;
+    width: 47%;
+}
+.thumbThirty {
+    margin-top: 22%;
+    position: relative;
+    width: 39%;
+}
+.thumbThirtyone {
+    margin-right: 3%;
+    position: relative;
+    width: 99%;
+}
+.thumbThirtytwo {
+    float: left;
+    margin-left: 20%;
+    margin-right: 3%;
+    position: relative;
+    width: 32%;
+}
+.thumbThirtythree {
+    position: relative;
+    width: 44%;
+}
+.thumbThirtyfour {
+    float: left;
+    margin-right: 3%;
+    margin-top: 2%;
+    position: relative;
+    width: 39%;
+}
+.thumbThirtyfive {
+    margin-top: 23%;
+    position: relative;
+    width: 57%;
+}
+.thumbThirtysix {
+    position: relative;
+    width: 99%;
+}
+.thumbThirtyseven {
+    float: left;
+    margin-right: 3%;
+    position: relative;
+    width: 55%;
+}
+.thumbThirtyeight {
+    position: relative;
+    width: 41%;
+}
+.thumbThirtynine {
+    float: left;
+    margin-right: 3%;
+    position: relative;
+    width: 41%;
+}
+.thumbFourty {
+    margin-top: 28%;
+    position: relative;
+    width: 51%;
+}
+.thumbFourtyone {
+    float: left;
+    margin-right: 3%;
+    position: relative;
+    width: 43%;
+}
+.thumbFourtytwo {
+    margin-right: 3%;
+    position: relative;
+    width: 42%;
+}
+.thumbFourtythree {
+    margin-bottom: 10%;
+    position: relative;
+    width: 67%;
+}
+
+/* Gallery Four */
+
+.galleryFour {
+    width:60%;
+    margin-left:20%;
+    margin-right:20%;
+    position:relative;
+    height:100%;
+}
+#four {
+    height: 1px;
+    margin-bottom: 10%;
+    width: 100%;
+}
+.thumbFourtyfour {
+    float: left;
+    margin-right: 3%;
+    margin-top: 35%;
+    position: relative;
+    width: 57%;
+}
+.thumbFourtyfive {
+    margin-top: 11%;
+    position: relative;
+    width: 39%;
+}
+.thumbFourtysix {
+    margin-left: 9%;
+    margin-right: 3%;
+    position: relative;
+    width: 90%;
+}
+.thumbFourtyseven {
+    float: left;
+    margin-right: 3%;
+    position: relative;
+    width: 38%;
+}
+.thumbFourtyeight {
+    position: relative;
+    width: 58%;
+}
+.thumbFourtynine {
+    float: left;
+    margin-right: 3%;
+    margin-top: 22%;
+    position: relative;
+    width: 56%;
+}
+.thumbFifty {
+    position: relative;
+    width: 41%;
+}
+.thumbFiftyone {
+    position: relative;
+    width: 100%;
+}
+.thumbFiftytwo {
+    float: left;
+    margin-right: 3%;
+    position: relative;
+    width: 34%;
+}
+.thumbFiftythree {
+    position: relative;
+    width: 63%;
+}
+.thumbFiftyfour {
+    float: left;
+    margin-right: 3%;
+    margin-top: 13%;
+    position: relative;
+    width: 45%;
+}
+.thumbFiftyfive {
+    margin-top: 24%;
+    position: relative;
+    width: 38%;
+}
+.thumbFiftysix {
+    position: relative;
+    width: 69%;
+}
+.thumbFiftyseven {
+    float: left;
+    margin-right: 3%;
+    position: relative;
+    width: 30%;
+}
+.thumbFiftyeight {
+    margin-bottom: 10%;
+    position: relative;
+    width: 30%;
+}
+
+/* Gallery Five */
+
+.galleryFive {
+    width:60%;
+    margin-left:20%;
+    margin-right:20%;
+    position:relative;
+    height:100%;
+}
+#five {
+    height: 1px;
+    margin-bottom: 10%;
+    width: 100%;
+}
+.thumbFiftynine {
+    float: left;
+    margin-right: 3%;
+    margin-top: 17%;
+    position: relative;
+    width: 45%;
+}
+.thumbSixty {
+    margin-top: 38%;
+    position: relative;
+    width: 51%;
+}
+.thumbSixtyone {
+    float: left;
+    margin-left: 16%;
+    margin-right: 3%;
+    position: relative;
+    width: 37%;
+}
+.thumbSixtytwo {
+    position: relative;
+    width: 43%;
+}
+.thumbSixtythree {
+    margin-left: 4%;
+    position: relative;
+    width: 95%;
+}
+.thumbSixtyfour {
+    float: left;
+    margin-right: 3%;
+    margin-top: 14%;
+    position: relative;
+    width: 44%;
+}
+.thumbSixtyfive {
+    position: relative;
+    width: 53%;
+}
+.thumbSixtysix {
+    position: relative;
+    width: 100%;
+}
+.thumbSixtyseven {
+    float: left;
+    margin-right: 3%;
+    position: relative;
+    width: 57%;
+}
+.thumbSixtyeight {
+    position: relative;
+    width: 40%;
+}
+.thumbSixtynine {
+    float: left;
+    margin-right: 3%;
+    position: relative;
+    width: 41%;
+    margin-top: 12%;
+}
+.thumbSeventy {
+    margin-top: 32%;
+    position: relative;
+    width: 56%;
+}
+.thumbSeventyone {
+    position: relative;
+    width: 80%;
+}
+.thumbSeventytwo {
+    float: left;
+    margin-right: 3%;
+    position: relative;
+    width: 39%;
+}
+.thumbSeventythree {
+    margin-bottom: 10%;
+    position: relative;
+    width: 55%;
+}
+
+/* Gallery Six */
+
+.gallerySix {
+    width:60%;
+    margin-left:20%;
+    margin-right:20%;
+    position:relative;
+    height:100%;
+}
+#six {
+    width:100%;
+    height:1px;
+    margin-bottom:10%;  
+}
+
+.thumbSeventyfour {
+    float: left;
+    margin-right: 3%;
+    margin-top: 49%;
+    position: relative;
+    width: 54%;
+}
+.thumbSeventyfive {
+    margin-top: 20%;
+    position: relative;
+    width: 40%;
+}
+.thumbSeventysix {
+    margin-left: 18%;
+    position: relative;
+    width: 80%;
+}
+.thumbSeventyseven {
+    float: left;
+    margin-left: 7%;
+    margin-right: 3%;
+    position: relative;
+    width: 48%;
+}
+.thumbSeventyeight {
+    position: relative;
+    width: 40%;
+}
+.thumbSeventynine {
+    float: left;
+    margin-right: 3%;
+    position: relative;
+    width: 52%;
+}
+.thumbEighty {
+    position: relative;
+    width: 44%;
+    margin-top: 11%;
+}
+.thumbEightyone {
+    position: relative;
+    width: 99%;
+}
+.thumbEightytwo {
+    float: left;
+    margin-right: 3%;
+    position: relative;
+    width: 43%;
+}
+.thumbEightythree {
+    position: relative;
+    width: 53%;
+}
+.thumbEightyfour {
+    float: left;
+    margin-right: 3%;
+    margin-top: 39%;
+    position: relative;
+    width: 35%;
+}
+.thumbEightyfive {
+    margin-top: 19%;
+    position: relative;
+    width: 48%;
+}
+.thumbEightysix {
+    position: relative;
+    width: 99%;
+}
+.thumbEightyseven {
+    position: relative;
+    width: 80%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) { 
+
+.galleryOne {
+    width:60%;
+    margin-left:20%;
+    margin-right:20%;
+    position:relative;
+    height:100%;
+}
+
+#one {
+    width:100%;
+    height:1px;
+    margin-bottom:10%;  
+}
+
+.galleryTwo {
+    width:60%;
+    margin-left:20%;
+    margin-right:20%;
+    position:relative;
+    height:100%;
+}
+
+#two {
+    width:100%;
+    height:1px;
+    margin-bottom:10%;  
+}
+
+.galleryThree {
+    width:60%;
+    margin-left:20%;
+    margin-right:20%;
+    position:relative;
+    height:100%;
+}
+#three {
+    width:100%;
+    height:1px;
+    margin-bottom:10%;  
+}
+.galleryFour {
+    width:60%;
+    margin-left:20%;
+    margin-right:20%;
+    position:relative;
+    height:100%;
+}
+#four {
+    height: 1px;
+    margin-bottom: 10%;
+    width: 100%;
+}
+.galleryFive {
+    width:60%;
+    margin-left:20%;
+    margin-right:20%;
+    position:relative;
+    height:100%;
+}
+.gallerySix {
+    width:60%;
+    margin-left:20%;
+    margin-right:20%;
+    position:relative;
+    height:100%;
+}
+#six {
+    width:100%;
+    height:1px;
+    margin-bottom:10%;  
+}
+
+.columnOne {
+    width:32%;
+    float:left;
+    position:relative;
+}
+
+.columnOne ul {
+    list-style:none;
+    padding:0px;
+    float:left; 
+}
+.columnTwo {
+    position:relative;
+    width:32%;
+    float:left;
+    margin-left:.5%;    
+}
+
+.columnTwo ul {
+    list-style:none;
+    padding:;
+    
+    float:left;
+}
+.columnThree {
+    position:relative;
+    width:32%;
+    float:left;
+    margin-left:.5%;
+}
+
+.columnThree ul {
+    list-style:none;
+    padding:0px;
+    float:left;
+    
+}
+
+}

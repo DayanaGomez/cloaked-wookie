@@ -1,0 +1,99 @@
+/* Gallery Two */
+
+.galleryTwo {
+    width:70%;
+    position:relative;
+    height:100%;
+    margin-left:25%;
+}
+
+#two {
+    width:100%;
+    height:1px;
+    margin-bottom:10%;  
+}
+
+/* Column One */
+
+.thumbSixteen {
+    float: left;
+    margin-right: 3%;
+    margin-top: 41%;
+    position: relative;
+    width: 52%;
+}
+
+.thumbSeventeen {
+    margin-top: 10%;
+    position: relative;
+    width: 44%;
+}
+
+.thumbEightteen {
+    margin-left: 19%;
+    position: relative;
+    width: 80%;
+}
+
+.thumbNineteen {
+    margin-left: 29%;
+    position: relative;
+    width: 70%;
+}
+
+/* Column Two */
+
+.thumbTwenty {
+    position: relative;
+    width: 47%;
+    margin-right:3%;
+    float:left;
+}
+
+.thumbTwentyone {
+    position:relative;
+    width:49%;
+    margin-top:6%;
+}
+
+.thumbTwentytwo {
+    position: relative;
+    width:100%;
+}
+
+.thumbTwentythree {
+    position: relative;
+    width:47%;
+    margin-right:3%;
+    float:left;
+}
+
+.thumbTwentyfour {
+    position: relative;
+    width:49%;
+    float:left;
+}
+
+/* Column Three */
+
+.thumbTwentyfive {
+    position: relative;
+    width:60%;
+}
+
+.thumbTwentysix {
+    float: left;
+    margin-right: 3%;
+    position: relative;
+    width: 41%;
+}
+
+.thumbTwentyseven {
+    position: relative;
+    width: 49%;
+}
+
+.thumbTwentyeight {
+    position: relative;
+    width:70%;
+}

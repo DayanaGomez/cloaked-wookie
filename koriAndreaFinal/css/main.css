@@ -1,0 +1,533 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body, h1, h2, h3, ul, li, p, a img {
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+
+html, body {
+	width:100%;
+	height:100%;
+}
+
+body {
+	background:url("../icon/bckg.png") repeat center top;
+}
+
+a {
+	cursor:pointer;	
+}
+header {
+	width:100%;
+	position:fixed;
+	top:0px;
+	left:0px;
+	margin:0px;	
+}
+
+
+header p {
+	margin-top:0px;
+	
+}
+.bar {
+	height:55px;
+	width:100%;
+	box-shadow: 0px 4px 2px #888888;
+}
+
+#logo {
+	position:fixed;
+	top:20px;
+	right:50px;
+	margin:0px;
+		
+}
+
+#main {
+    height: 80%;
+    margin-top: 10%;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+   
+}
+
+#photo {
+    float: left;
+    margin-left: 10%;
+    width: 30%;
+    height: 100%
+}
+
+#text {
+	width:80%;
+
+	
+}
+
+h3 {
+	font-family:'paul_maulregular';
+	font-size: 35px;
+	color:#663333;
+
+}
+
+h4 {
+	font-family:'paul_maulregular';
+	font-size: 25px;
+	color:#666666;
+
+}
+
+footer {
+    border-top: 1px dashed;
+    bottom: 1px;
+    float: left;
+    height: 60px;
+    margin-bottom: 0;
+    position: fixed;
+    width: 90%;
+	padding-left:5%;
+	padding-right:5%;
+}
+
+nav {
+	
+	width:120px;
+	position:fixed;
+	top:64px;
+	left:20px;
+	border-right:dotted; 
+	border-color:#;
+
+}
+
+nav ul {
+	list-style:none;
+	padding-top: 30px;
+	
+}
+
+nav li {
+	list-style:none;
+	
+	
+}  
+
+nav li a {
+	list-style:none;
+	
+	text-indent: -9999px;
+	display:inline-block;
+	height:62px;
+	background-image: url("../icon/iconsGallery.png");
+	
+} 
+
+.oneBtn {
+	width:100px;
+	background-position: 0px -100px;
+}
+
+.oneBtn:hover {
+	background-position: 0px 0px;
+}
+.twoBtn {
+	width:145px;
+	background-position: -100px -100px;
+}
+
+.twoBtn:hover {
+	background-position: -100px 0px;
+}
+
+.threeBtn {
+	width:70px;
+	background-position: -240px -100px;
+}
+
+.threeBtn:hover {
+	background-position: -240px 0px;
+}
+
+.fourBtn {
+	width:130px;
+	background-position: -370px -100px;
+}
+
+.fourBtn:hover {
+	background-position: -370px 0px;
+}
+
+.fiveBtn {
+	width:70px;
+	background-position: -510px -100px;
+}
+
+.fiveBtn:hover {
+	background-position: -510px 0px;
+}
+
+.sixBtn {
+	width:100px;
+	background-position: -620px -100px;
+}
+
+.sixBtn:hover {
+	background-position: -620px 0px;
+}
+
+#icons {
+    bottom: 1px;
+    height: 60px;
+	right:10px;
+    position: fixed;
+    width: 220px;
+}
+
+#icons ul {
+    float: left;
+    list-style: none outside none;
+    width: 100%;
+	
+}
+
+#icons li {
+    float: left;
+	padding-right:4%;
+	padding-top:10px;	
+}
+
+#icons li a {
+	background-image: url("../icon/nav.png");
+	text-indent: -9999px;
+	display:inline-block;
+	height:40px;
+	
+}
+
+.homeBtn {
+	width:40px;
+	background-position: 0px 0px;
+}
+
+.homeBtn:hover {
+	background-position: 0px -40px;
+}
+.faceBtn {
+	width:40px;
+	background-position: -40px 0px;
+}
+
+.faceBtn:hover {
+	background-position: -40px -40px;
+}
+
+.pintBtn {
+	width:40px;
+	background-position: -80px 0px;
+}
+
+.pintBtn:hover {
+	background-position: -80px -40px;
+}
+
+.mailBtn {
+	width:40px;
+	background-position: -120px 0px;
+}
+
+.mailBtn:hover {
+	background-position: -120px -40px;
+}
+
+/* Fonts */ 
+
+@font-face {
+    font-family: 'paul_maulregular';
+    src: url('../font/paulmaul-webfont-webfont.eot');
+    src: url('../font/paulmaul-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/paulmaul-webfont-webfont.woff') format('woff'),
+         url('../font/paulmaul-webfont-webfont.ttf') format('truetype'),
+         url('../font/paulmaul-webfont-webfont.svg#paul_maulregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*         TABLETS       */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) { 
+
+
+
+/* Fonts */ 
+
+@font-face {
+    font-family: 'MathleteBulky';
+    src: url('fonts/Mathlete-Bulky-webfont.eot');
+    src: url('Mathlete-Bulky-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Mathlete-Bulky-webfont.woff') format('woff'),
+         url('Mathlete-Bulky-webfont.ttf') format('truetype'),
+         url('Mathlete-Bulky-webfont.svg#MathleteBulky') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+}
+
+/* Mobile */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) { 
+
+html, body, h1, h2, h3, ul, li, p, a img {
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+
+html, body {
+	width:100%;
+	height:100%;
+}
+
+body {
+	background:url("../icon/bckg.png") repeat center top;
+}
+
+a {
+	cursor:pointer;	
+}
+header {
+	width:100%;
+	position:fixed;
+	top:0px;
+	left:0px;
+	margin:0px;	
+}
+
+
+header p {
+	margin-top:0px;
+	
+}
+.bar {
+	height:55px;
+	width:100%;
+	box-shadow: 0px 4px 2px #888888;
+}
+
+#logo {
+	position:fixed;
+	top:20px;
+	right:120px;
+	margin:0px;
+		
+}
+
+#main {
+    margin-top: 40%;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+   
+}
+
+#photo {
+    display:none;
+}
+
+#text {
+	width:80%;
+	margin-left:10%;
+	margin-right:9%;
+	margin-bottom: 5%;
+}
+
+h3 {
+	font-family:'paul_maulregular';
+	font-size: 20px;
+	color:#663333;
+
+}
+
+h4 {
+	font-family:'paul_maulregular';
+	font-size: 15px;
+	color:#666666;
+
+}
+
+footer {
+    float: left;
+    height: 60px;
+    margin-bottom: 0;
+    position: fixed;
+    width: 90%;
+	padding-left:5%;
+	padding-right:5%;
+}
+
+nav {
+	width:120px;
+	display:none;
+
+}
+
+nav ul {
+	list-style:none;
+	padding-top: 30px;
+	
+}
+
+nav li {
+	list-style:none;
+	
+	
+}  
+
+nav li a {
+	list-style:none;	
+	text-indent: -9999px;
+	display:inline-block;
+	height:62px;
+	background-image: url("../icon/iconsGallery.png");
+	
+} 
+
+.oneBtn {
+	width:100px;
+	background-position: 0px -100px;
+}
+
+.oneBtn:hover {
+	background-position: 0px 0px;
+}
+.twoBtn {
+	width:145px;
+	background-position: -100px -100px;
+}
+
+.twoBtn:hover {
+	background-position: -100px 0px;
+}
+
+.threeBtn {
+	width:70px;
+	background-position: -240px -100px;
+}
+
+.threeBtn:hover {
+	background-position: -240px 0px;
+}
+
+.fourBtn {
+	width:130px;
+	background-position: -370px -100px;
+}
+
+.fourBtn:hover {
+	background-position: -370px 0px;
+}
+
+.fiveBtn {
+	width:70px;
+	background-position: -510px -100px;
+}
+
+.fiveBtn:hover {
+	background-position: -510px 0px;
+}
+
+.sixBtn {
+	width:100px;
+	background-position: -620px -100px;
+}
+
+.sixBtn:hover {
+	background-position: -620px 0px;
+}
+
+#icons {
+    bottom: 1px;
+    height: 60px;
+	right:40px;
+    position: fixed;
+    width: 220px;
+}
+
+#icons ul {
+    float: left;
+    list-style: none outside none;
+    width: 100%;
+	
+}
+
+#icons li {
+    float: left;
+	padding-right:4%;
+	padding-top:10px;	
+}
+
+#icons li a {
+	background-image: url("../icon/nav.png");
+	text-indent: -9999px;
+	display:inline-block;
+	height:40px;
+	
+}
+
+.homeBtn {
+	width:40px;
+	background-position: 0px 0px;
+}
+
+.homeBtn:hover {
+	background-position: 0px -40px;
+}
+.faceBtn {
+	width:40px;
+	background-position: -40px 0px;
+}
+
+.faceBtn:hover {
+	background-position: -40px -40px;
+}
+
+.pintBtn {
+	width:40px;
+	background-position: -80px 0px;
+}
+
+.pintBtn:hover {
+	background-position: -80px -40px;
+}
+
+.mailBtn {
+	width:40px;
+	background-position: -120px 0px;
+}
+
+.mailBtn:hover {
+	background-position: -120px -40px;
+}
+
+/* Fonts */ 
+
+@font-face {
+    font-family: 'MathleteBulky';
+    src: url('fonts/Mathlete-Bulky-webfont.eot');
+    src: url('Mathlete-Bulky-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Mathlete-Bulky-webfont.woff') format('woff'),
+         url('Mathlete-Bulky-webfont.ttf') format('truetype'),
+         url('Mathlete-Bulky-webfont.svg#MathleteBulky') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+}
